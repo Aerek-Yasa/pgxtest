@@ -17,8 +17,8 @@ var databaseName string = ""
 type PGXTestTable struct {
 	ColumnOne   int32   `db:"column_one"`
 	ColumnTwo   int32   `db:"columntwo"`
-	ColumnThree []int32 `db:"column_three`
-	ColumnFour  []int32 `db:"columnfour`
+	ColumnThree []int32 `db:"column_three"`
+	ColumnFour  []int32 `db:"columnfour"`
 }
 type Wrapper struct {
 	Values []PGXTestTable `db:"values"`
